@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Eye, ArrowRight, ExternalLink } from 'lucide-react';
+import React, { useState } from "react";
+import { Eye, ArrowRight, ExternalLink } from "lucide-react";
 
 const ProjectCardModal = ({ title, description, link }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +10,7 @@ const ProjectCardModal = ({ title, description, link }) => {
         className="inline-flex items-center space-x-1 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-white/90 transition-colors duration-200"
         onClick={() => setIsOpen(true)}
       >
-        <span className="text-sm">Details</span>
+        <span className="text-sm">Tafsilotlar</span>
         <ArrowRight className="w-4 h-4" />
       </button>
 
@@ -38,13 +38,14 @@ const ProjectCardModal = ({ title, description, link }) => {
                 rel="noopener noreferrer"
                 className="rounded-md bg-blue-600 px-4 py-2 font-medium hover:bg-blue-700 transition-colors duration-200"
               >
-                Live Demo <ExternalLink className="ml-2 inline-block h-5 w-5" />
+                Jonli demo
+                <ExternalLink className="ml-2 inline-block h-5 w-5" />
               </a>
               <button
                 className="rounded-md bg-gray-800 px-4 py-2 font-medium hover:bg-gray-700 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
-                Close
+                Yopish
               </button>
             </div>
           </div>
