@@ -139,14 +139,14 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                       data-aos-delay="400"
                       className="inline-block px-2 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent"
                     >
-                      uchun
+                      {/* uchun */}
                     </span>{" "}
                     <span
                       data-aos="fade-right"
                       data-aos-delay="600"
                       className="inline-block px-2 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent"
                     >
-                      mening
+                      {/* mening */}
                     </span>
                   </div>
                   <div>
