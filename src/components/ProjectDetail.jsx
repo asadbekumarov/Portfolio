@@ -134,7 +134,7 @@ const ProjectDetails = () => {
         ...selectedProject,
         Features: selectedProject.Features || [],
         TechStack: selectedProject.TechStack || [],
-        Github: selectedProject.Github || "https://github.com/EkiZR",
+        Github: selectedProject.Github || "https://github.com/asadbekumarov",
       };
       setProject(enhancedProject);
     }
@@ -215,7 +215,7 @@ const ProjectDetails = () => {
                   <span className="relative font-medium">Jonli Demo</span>
                 </a>
 
-                <a
+                {/* <a
                   href={project.Github}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -227,14 +227,14 @@ const ProjectDetails = () => {
                   <div className="absolute inset-0 translate-y-[100%] bg-gradient-to-r from-purple-600/10 to-pink-600/10 transition-transform duration-300 group-hover:translate-y-[0%]" />
                   <Github className="relative w-4 h-4 md:w-5 md:h-5 group-hover:rotate-12 transition-transform" />
                   <span className="relative font-medium">Github</span>
-                </a>
+                </a> */}
               </div>
 
               <div className="space-y-4 md:space-y-6">
-                <h3 className="text-lg md:text-xl font-semibold text-white/90 mt-[3rem] md:mt-0 flex items-center gap-2 md:gap-3">
+                {/* <h3 className="text-lg md:text-xl font-semibold text-white/90 mt-[3rem] md:mt-0 flex items-center gap-2 md:gap-3">
                   <Code2 className="w-4 h-4 md:w-5 md:h-5 text-blue-400" />
                   Ishlatilgan texnologiyalar
-                </h3>
+                </h3> */}
                 {project.TechStack.length > 0 ? (
                   <div className="flex flex-wrap gap-2 md:gap-3">
                     {project.TechStack.map((tech, index) => (
