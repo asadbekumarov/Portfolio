@@ -76,7 +76,7 @@ const ProfileImage = memo(({ imageSrc }) => (
 ));
 
 const StatCard = memo(
-  ({ icon: Icon, color, value, label, description, animation }) => (
+  ({ icon: Icon, color, label, description, animation }) => (
     <div
       data-aos={animation}
       data-aos-duration={1300}
@@ -97,7 +97,6 @@ const StatCard = memo(
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
-            {value}
           </span>
         </div>
 

@@ -368,7 +368,7 @@ export default function FullWidthTabs() {
 
           <TabPanel value={value} index={1} dir={theme.direction}>
             <div className="container mx-auto flex justify-center items-center overflow-hidden">
-              <div className="grid grid-cols-1 md:grid-cols-3 md:gap-5 gap-4">
+              {/* <div className="grid grid-cols-1 md:grid-cols-3 md:gap-5 gap-4">
                 {displayedCertificates.map((certificate, index) => (
                   <div
                     key={index}
@@ -390,7 +390,7 @@ export default function FullWidthTabs() {
                     <Certificate ImgSertif={certificate.Img} />
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
             {certificates.length > initialItems && (
               <div className="mt-6 w-full flex justify-start">

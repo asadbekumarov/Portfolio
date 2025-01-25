@@ -222,11 +222,11 @@ const Komentar = () => {
     const q = query(commentsRef, orderBy("createdAt", "desc"));
 
     return onSnapshot(q, (querySnapshot) => {
-      const commentsData = querySnapshot.docs.map((doc) => ({
-        id: doc.id,
-        ...doc.data(),
-      }));
-      setComments(commentsData);
+      // const commentsData = querySnapshot.docs.map((doc) => ({
+      //   id: doc.id,
+      //   ...doc.data(),
+      // }));
+      // setComments(commentsData);
     });
   }, []);
 
