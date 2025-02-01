@@ -81,8 +81,6 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
           <div className="absolute inset-0 border border-white/0 group-hover:border-purple-500/50 rounded-xl transition-colors duration-300 -z-50"></div>
         </div>
       </div> */}
-      <div></div>
-      <span></span>
     </div>
   );
 };
