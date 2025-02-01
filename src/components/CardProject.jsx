@@ -82,6 +82,7 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
         </div>
       </div> */}
       <div></div>
+      <span></span>
     </div>
   );
 };
