@@ -36,6 +36,7 @@ const socialLinks = [
     color: "#FF0000",
     gradient: "from-[#FF0000] to-[#CC0000]",
   },
+  // div
   {
     name: "GitHub",
     displayName: "Github",
